@@ -30,6 +30,9 @@ This project solves the problem of manually creating a virtual machine and manua
 
 [![Issues][issues-shield]][issues-url]
 
+[]![Ansible][https://img.shields.io/github/pipenv/locked/dependency-version/Zhdanovich98/pub_devcesops/ansible]][2]
+
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
