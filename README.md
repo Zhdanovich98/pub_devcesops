@@ -1,5 +1,5 @@
 ![image](./files/devsecops_img.jpeg)
-![Platform](https://img.shields.io/badge/platform-linux-blue?style=for-the-badge&logo=appveyor) ![distr](https://img.shields.io/badge/distribution-Ubuntu20.04-blue?style=for-the-badge&logo=appveyor) ![Python](https://img.shields.io/badge/python-3.8.10-blue?style=for-the-badge&logo=appveyor) ![env](https://img.shields.io/badge/Virtualenv-20.0.17-blue?style=for-the-badge&logo=appveyor) ![Ansible](https://img.shields.io/badge/ansible-2.9.6-blue?style=for-the-badge&logo=appveyor) ![Vagrant](https://img.shields.io/badge/Vagrant-2.2.6-blue?style=for-the-badge&logo=appveyor)
+[![Platform][https://img.shields.io/badge/platform-linux-blue?style=for-the-badge&logo=appveyor)][https://softteco.by/] ![distr](https://img.shields.io/badge/distribution-Ubuntu20.04-blue?style=for-the-badge&logo=appveyor) ![Python](https://img.shields.io/badge/python-3.8.10-blue?style=for-the-badge&logo=appveyor) ![env](https://img.shields.io/badge/Virtualenv-20.0.17-blue?style=for-the-badge&logo=appveyor) ![Ansible](https://img.shields.io/badge/ansible-2.9.6-blue?style=for-the-badge&logo=appveyor) ![Vagrant](https://img.shields.io/badge/Vagrant-2.2.6-blue?style=for-the-badge&logo=appveyor)
 ## Task: ##
 Change ntp to ntp.se with Ansible in an RHEL 8 virtual server named ntp.edu.tentixo.com via VagrantBox on VirtualBox - connection should be done with computer name, not IP.
 
@@ -26,6 +26,8 @@ This project solves the problem of manually creating a virtual machine and manua
 | Ansible | 2.9.6 |
 
 > *The solution was provided by [SoftTeco](https://softteco.by/).*
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
