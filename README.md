@@ -1,5 +1,5 @@
 ![image](./files/devsecops_img.jpeg)
-![Platform](https://img.shields.io/badge/platform-linux-blue) ![distr](https://img.shields.io/badge/distribution-Ubuntu20.04-blue) ![Python](https://img.shields.io/badge/python-3.8.10-blue) ![env](https://img.shields.io/badge/Virtualenv-20.0.17-blue) ![Ansible](https://img.shields.io/badge/ansible-2.9.6-blue) ![Vagrant](https://img.shields.io/badge/Vagrant-2.2.6-blue)
+![Platform](https://img.shields.io/badge/platform-linux-blue) ![distr](https://img.shields.io/badge/distribution-Ubuntu20.04-green) ![Python](https://img.shields.io/badge/python-3.8.10-blue) ![env](https://img.shields.io/badge/Virtualenv-20.0.17-blue) ![Ansible](https://img.shields.io/badge/ansible-2.9.6-blue) ![Vagrant](https://img.shields.io/badge/Vagrant-2.2.6-blue)
 ## Task: ##
 Change ntp to ntp.se with Ansible in an RHEL 8 virtual server named ntp.edu.tentixo.com via VagrantBox on VirtualBox - connection should be done with computer name, not IP.
 
