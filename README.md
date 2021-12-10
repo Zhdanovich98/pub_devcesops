@@ -26,11 +26,13 @@ This project solves the problem of manually creating a virtual machine and manua
 
 > *The solution was provided by [SoftTeco](https://softteco.by/).*
 
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ansible?style=flat-square)
+
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 [![Issues][issues-shield]][issues-url]
 
-[![Ansible][https://img.shields.io/github/pipenv/locked/dependency-version/Zhdanovich98/pub_devcesops/ansible]]
+[![Ansible][https://img.shields.io/badge/ansible-2.9.6-blue]]
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
