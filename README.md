@@ -1,4 +1,6 @@
 ![image](./files/devsecops_img.jpeg)
+![Ansible](https://img.shields.io/badge/ansible-2.9.6-blue) ![Python](https://img.shields.io/badge/python-3.8.10-blue) 
+
 ## Task: ##
 Change ntp to ntp.se with Ansible in an RHEL 8 virtual server named ntp.edu.tentixo.com via VagrantBox on VirtualBox - connection should be done with computer name, not IP.
 
@@ -31,8 +33,6 @@ This project solves the problem of manually creating a virtual machine and manua
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 [![Issues][issues-shield]][issues-url]
-
-![Ansible](https://img.shields.io/badge/ansible-2.9.6-blue)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
