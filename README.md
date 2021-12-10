@@ -32,7 +32,7 @@ This project solves the problem of manually creating a virtual machine and manua
 
 [![Issues][issues-shield]][issues-url]
 
-[![Ansible][https://img.shields.io/badge/ansible-2.9.6-blue]]
+![Ansible](https://img.shields.io/badge/ansible-2.9.6-blue)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
