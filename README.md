@@ -1,6 +1,5 @@
 ![image](./files/devsecops_img.jpeg)
-![Ansible](https://img.shields.io/badge/ansible-2.9.6-blue) ![Python](https://img.shields.io/badge/python-3.8.10-blue) 
-
+![Platform](https://img.shields.io/badge/platform-linux-blue) ![distr](https://img.shields.io/badge/distribution-Ubuntu20.04-blue) ![Python](https://img.shields.io/badge/python-3.8.10-blue) ![env](https://img.shields.io/badge/Virtualenv-20.0.17-blue) ![Ansible](https://img.shields.io/badge/ansible-2.9.6-blue) ![Vagrant](https://img.shields.io/badge/Vagrant-2.2.6-blue)
 ## Task: ##
 Change ntp to ntp.se with Ansible in an RHEL 8 virtual server named ntp.edu.tentixo.com via VagrantBox on VirtualBox - connection should be done with computer name, not IP.
 
@@ -28,30 +27,7 @@ This project solves the problem of manually creating a virtual machine and manua
 
 > *The solution was provided by [SoftTeco](https://softteco.by/).*
 
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ansible?style=flat-square)
-
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-[![Issues][issues-shield]][issues-url]
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/Zhdanovich98/devsecops/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/company/softteco-team
-
-
-
-https://github.com/Zhdanovich98/devsecops/graphs/contributors
-
-https://github.com/Zhdanovich98/devsecops/issues
