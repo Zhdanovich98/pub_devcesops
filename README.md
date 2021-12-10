@@ -28,8 +28,3 @@ This project solves the problem of manually creating a virtual machine and manua
 > *The solution was provided by [SoftTeco](https://softteco.by/).*
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/company/softteco-team
