@@ -11,7 +11,7 @@ This project solves the problem of manually creating a virtual machine and manua
 
 ## Start: ##
 
-📎**To start this project, read [this documentation](https://github.com/Zhdanovich98/devsecops/blob/main/files/for_start.md) and follow the steps in it.**
+📎**To start this project, read [this documentation](https://github.com/Zhdanovich98/pub_devcesops/blob/master/files/for_start.md) and follow the steps in it.**
 
 ## Requirements: ##
 

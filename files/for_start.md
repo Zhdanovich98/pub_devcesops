@@ -54,11 +54,11 @@ sudo apt-get update && sudo apt-get install vagrant
 
 1. Clone this project on you local system:
 ```sh
-git clone https://github.com/Zhdanovich98/devsecops.git
+git clone https://github.com/Zhdanovich98/pub_devcesops.git
 ```
 2. Go to this project directory:
 ```sh
-cd ./devsecops
+cd ./pub_devcesops
 ```
 3. Create a virtual environment:
 ```sh
@@ -194,4 +194,4 @@ Main.yml file from change_ntp role:
 
 ## Help: ##
 
-***If you receive an error, you can see this [file](https://github.com/Zhdanovich98/devsecops/blob/main/files/helper.md) with a description of the most popular errors that may occur when starting this project.***
+***If you receive an error, you can see this [file](https://github.com/Zhdanovich98/pub_devcesops/blob/master/files/helper.md) with a description of the most popular errors that may occur when starting this project.***
