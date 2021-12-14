@@ -45,12 +45,11 @@ virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 
 #### 3. Active your virtual environment. ####
 
- To begin using the virtual environment, it needs to be activated: 
+ To begin using the virtual environment, it needs to be activated:
 
 ```sh
 source ~/environments/python3.9/bin/activate
 ```
->  source <venv>/bin/activate:
 
 #### 4. Install Ansible. ####
 
