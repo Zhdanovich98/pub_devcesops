@@ -36,7 +36,7 @@ mkdir ~/environments
 ```sh
 virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 ```
-> /usr/bin/python3.9 - your local pass to python3.9
+> /usr/bin/python3.9 - your local path to python3.9
 
 > ~/environments/python3.9 - folder name with a virtual environment
 
@@ -57,7 +57,7 @@ source ~/environments/python3.9/bin/activate
  Install Ansible:2.9.6 using requirements files:
 
 ```sh
-pip install -r <paste pass to requirements file from DevSecOps project>
+pip install -r <path to requirements.txt>
 ```
 
  You can use install Ansible:2.9.6 without using requirements file:
