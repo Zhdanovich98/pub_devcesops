@@ -28,6 +28,7 @@ For start you should create directory with this and future Virtualenv folders.
 mkdir ~/environments
 ```
 > mkdir - command for create folder
+
 > environments - folder name
 
  Create a virtual environment:
@@ -41,7 +42,7 @@ virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 
 > [good cheat tool with commands for working with virtualenv](https://gist.github.com/frfahim/73c0fad6350332cef7a653bcd762f08d)
 
-> [good article about venv, pyvenv, etc](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
+> [good article about venv](https://realpython.com/python-virtual-environments-a-primer/)
 
 #### 3. Active your virtual environment. ####
 
