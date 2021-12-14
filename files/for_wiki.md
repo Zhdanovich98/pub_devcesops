@@ -2,7 +2,7 @@
 
 #### 1. Check version. ####
 
-Before you go any further, make sure you have [Python](https://docs.python.org/3.9/), [Pip](https://pip.pypa.io/en/stable/), [Virtualenv](Virtualenv) and that it’s available from your command line.
+Before you go any further, make sure you have [Python](https://docs.python.org/3.9/), [Pip](https://pip.pypa.io/en/stable/), [Virtualenv](https://virtualenv.pypa.io/en/20.0.17/) and that it’s available from your command line.
 
  You can check this by simply running:
 
