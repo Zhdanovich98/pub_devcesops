@@ -39,7 +39,10 @@ virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 
 > ~/environments/python3.9 - folder name with a virtual environment
 
-> [more information about create/active a virtual environment](https://gist.github.com/frfahim/73c0fad6350332cef7a653bcd762f08d)
+
+> [more information about virtualenv](https://pypi.org/project/virtualenv/)
+
+> [good cheat tool with commands for working with virtualenv](https://gist.github.com/frfahim/73c0fad6350332cef7a653bcd762f08d)
 
 > [good article about venv, pyvenv, etc](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
 
@@ -56,7 +59,7 @@ source ~/environments/python3.9/bin/activate
  Install the correct(2.9.6) Ansible version using requirements files:
 
 ```sh
-pip install -r <paste pass to requirements file from  DevSecOps project>
+pip install -r <paste pass to requirements file from DevSecOps project>
 ```
 
  You can use install Ansible:2.9.6 without using requirements file:
