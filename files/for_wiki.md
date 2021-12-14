@@ -56,7 +56,7 @@ source ~/environments/python3.9/bin/activate
 
 #### 4. Install Ansible. ####
 
- Install the correct(2.9.6) Ansible version using requirements files:
+ Install Ansible:2.9.6 using requirements files:
 
 ```sh
 pip install -r <paste pass to requirements file from DevSecOps project>
