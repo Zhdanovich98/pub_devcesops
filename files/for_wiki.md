@@ -2,7 +2,7 @@
 
 #### 1. Check version. ####
 
-Before you go any further, make sure you have Python, Pip, Virtualenv and that it’s available from your command line.
+Before you go any further, make sure you have [Python](https://docs.python.org/3.9/), [Pip](https://pip.pypa.io/en/stable/), [Virtualenv](Virtualenv) and that it’s available from your command line.
 
  You can check this by simply running:
 
@@ -38,9 +38,6 @@ virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 > /usr/bin/python3.9 - your local pass to python3.9
 
 > ~/environments/python3.9 - folder name with a virtual environment
-
-
-> [more information about virtualenv](https://pypi.org/project/virtualenv/)
 
 > [good cheat tool with commands for working with virtualenv](https://gist.github.com/frfahim/73c0fad6350332cef7a653bcd762f08d)
 
