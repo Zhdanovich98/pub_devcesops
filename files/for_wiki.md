@@ -40,8 +40,6 @@ virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 
 > ~/environments/python3.9 - folder name with a virtual environment
 
-> [good cheat tool with commands for working with virtualenv](https://gist.github.com/frfahim/73c0fad6350332cef7a653bcd762f08d)
-
 > [good article about venv](https://realpython.com/python-virtual-environments-a-primer/)
 
 #### 3. Active your virtual environment. ####
