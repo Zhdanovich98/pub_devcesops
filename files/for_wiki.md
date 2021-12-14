@@ -20,7 +20,7 @@ virtualenv --version
 
 #### 2. Create a virtual environment. ####
 
-For start you should choose directory with this and future Virtualenv folders.
+For start you should create directory with this and future Virtualenv folders.
 
  Create folder in your home directory:
 
