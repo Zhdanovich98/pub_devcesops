@@ -6,8 +6,14 @@
         <li><a href="#Install-tools">Install tools</a></li>
       </ul>
       <ul>
-          <li><a href="#Create&Setting-Virtualenv">Create&Setting Virtualenv</a></li>
+          <li><a href="#Create\/Setting-Virtualenv">Create/Setting Virtualenv</a></li>
         </ul>
+        <ul>
+            <li><a href="#Create'/'Setting-Virtualenv">Create/Setting Virtualenv</a></li>
+          </ul>
+          <ul>
+              <li><a href="#Create-/-Setting-Virtualenv">Create/Setting Virtualenv</a></li>
+            </ul>
         <ul>
             <li><a href="#Vagrantfile">Vagrantfile</a></li>
           </ul>
@@ -125,6 +131,22 @@ For create your virtual environment use next lines:
     # Install packages
     $ pip install -r requirements.txt
 ```
+              <li><a href="#Ansible">Ansible</a></li>
+            </ul>
+            <ul>
+                <li><a href="#Official-Links">Official Links</a></li>
+              </ul>
+    <li><a href="#On-Windows">On Windows</a></li>
+    <ul>
+        <li><a href="#Install-tools-for-WSL2">Install tools</a></li>
+      </ul>
+      <ul>
+          <li><a href="#Create-your-virtualenv">Create your virtualenv</a></li>
+        </ul>
+        <ul>
+            <li><a href="#Connect-to-VM">Connect to VM</a></li>
+          </ul>
+          <ul>
 Good article about installing virtualenv:
 - [Installation]
 - [How to create python 3 virtual environment]
@@ -147,7 +169,7 @@ The Ansible installation will be installed in the **Create/Setting Virtualenv** 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Create&Setting Virtualenv ##
+## Create/Setting Virtualenv ##
 
 ### Check version ###
 
