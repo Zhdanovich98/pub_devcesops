@@ -57,8 +57,7 @@ If pip isn’t already installed, then install pip for Python 3 run the followin
 To install pip, follow t2.2he official pip installation guide - this will automatically install the latest version of setuptools.
 Good article about installing python and pip:
 - [Properly Installing Python]
-- [Official pi
-   ### <p><a href="https://www.vagrantup.com/docs/vagrantfile">link on official Docs for Vagrant</a></p>p installation guide]
+- [Official pip installation guide]
 - [Python Packaging User Guide]
 - [New Python Versions]
 
