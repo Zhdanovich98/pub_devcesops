@@ -145,7 +145,7 @@ Good article about installing virtualenv:
 - [How to create python 3 virtual environment]
 - [How to set up python virtual environment]
 
-The Ansible installation will be installed in the **Create/Setting Virtualenv** section.
+The Ansible installation will be installed in the **Setup Virtualenv** section.
 
    [Install and Use VirtualBox in Ubuntu 20.04]: https://linuxhint.com/install_use_virtualbox_ubuntu/
    [Download Vagrant]: https://www.vagrantup.com/downloads
