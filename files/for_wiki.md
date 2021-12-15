@@ -4,7 +4,7 @@
 > To complete this task, you need to install the necessary software.
 > Each chapter shows the steps of installing components, links to sites with additional information, and author's comments.
 
-#### 1.1 Install VirtualBox and VagrantBox ####
+### Install VirtualBox and VagrantBox ###
 For install Vagrant and Virtual box you can use next lines in your terminal window (using ctrl+alt+T):
 ```ch
     $ sudo apt update
@@ -18,13 +18,13 @@ Good article about installing virtualbox and vagrantbox:
 - [Setting Up Vagrant Box]
 - [Installing VirtualBox and Vagrant on Ubuntu]
 
-#### 1.2 Create a project folder ####
+### Create a project folder ###
 After you need to create a separate folder that will contain the necessary documents.
 ```ch
     $ mkdir Project_1
     $ cd ./Project_1/
 ```
-#### 1.3 Install Python and pip ####
+### Install Python and pip ###
 Firstly, you need to install python.
 To see which version of Python 3 you have installed, open a command prompt and run:
 ```ch
@@ -57,11 +57,12 @@ If pip isn’t already installed, then install pip for Python 3 run the followin
 To install pip, follow t2.2he official pip installation guide - this will automatically install the latest version of setuptools.
 Good article about installing python and pip:
 - [Properly Installing Python]
-- [Official pip installation guide]
+- [Official pi
+   ### <p><a href="https://www.vagrantup.com/docs/vagrantfile">link on official Docs for Vagrant</a></p>p installation guide]
 - [Python Packaging User Guide]
 - [New Python Versions]
 
-#### 1.4 Install Virtualenv
+### Install Virtualenv ###
 Next, you need to install and create your virtualenv. For install you can use next line:
 ```ch
     $ sudo apt-get install python3-venv -y
@@ -97,7 +98,7 @@ The Ansible installation will be installed in the **Create/Setting Virtualenv** 
 
 ## 2. Create/Setting Virtualenv ##
 
-#### Check version. ####
+### Check version. ###
 
 Before you go any further, make sure you have [Python](https://docs.python.org/3.9/), [Pip](https://pip.pypa.io/en/stable/), [Virtualenv](https://virtualenv.pypa.io/en/20.0.17/) and that it’s available from your command line.
 
@@ -115,7 +116,7 @@ virtualenv --version
 
 > Python should be 3.9.*, pip == 20.0.2, virtualenv ==	20.0.17.
 
-#### Create a virtual environment. ####
+### Create a virtual environment. ###
 
 For start you should create directory with this and future Virtualenv folders.
 
@@ -139,7 +140,7 @@ virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 
 > [good article about venv](https://realpython.com/python-virtual-environments-a-primer/)
 
-#### Active your virtual environment. ####
+### Active your virtual environment. ###
 
  To begin using the virtual environment, it needs to be activated:
 
@@ -147,7 +148,7 @@ virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 source ~/environments/python3.9/bin/activate
 ```
 
-#### Install Ansible. ####
+### Install Ansible. ###
 
  Install Ansible:2.9.6 using requirements files:
 
@@ -163,7 +164,7 @@ pip install ansible==2.9.6
 
 You cat reed about install Python packages in [this article](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
-#### Deactivate. ####
+### Deactivate. ###
 
 If you are done working in the virtual environment for the moment, you can deactivate it:
 
@@ -173,7 +174,7 @@ deactivate
 
 ##  3. Vagrantfile:
 
-   [link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
+   [Link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
             ```
             Vagrant.configure("2") do |config|
                   ##### VM definition #####   
