@@ -264,3 +264,11 @@ ansible_ssh_private_key_file=/home/arthur/courses/DevOps-Security/.vagrant/machi
 2. https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
 3. https://www.redhat.com/en/topics/automation/what-is-an-ansible-playbook
 4. https://docs.ansible.com/ansible/latest/network/getting_started/first_inventory.html
+
+## Official Links: ##
+##### - [Information about Python](https://docs.python.org/3.9/)
+##### - [Information about Ansible](https://www.ansible.com/)
+##### - [Information about VagrantBox](https://www.vagrantup.com/)
+##### - [Information about VirtualBox](https://www.virtualbox.org/)
+##### - [Information about VirtualEnv](https://virtualenv.pypa.io/en/20.0.17/)
+##### - [Information about RHEL8](https://www.redhat.com/en/enterprise-linux-8)
