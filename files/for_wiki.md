@@ -306,7 +306,7 @@ ___
 
 ***On other Windows versions and packages has not been tested!!!***
 
-##  Install tools:
+##  Install tools: ##
 ###  Install Vagrant and VirtualBox ###
  1. You need to go to the virtualbox [website](https://www.virtualbox.org/wiki/Downloads) and download the latest version for Windwos(I have it 6.1.30)<br>
  2. You need to go to the vagrant [website](https://www.vagrantup.com/downloads) and download the last version(for you processor 32/64-bit) for Windows(I have it 2.2.19 for 64-bit)
@@ -393,7 +393,7 @@ ___
    $ mkdir VagrantVM
    $ cd ./VagrantVM/
    ```
-## 2. Create your virtualenv: ##
+## Create your virtualenv: ##
    First, verify the installed Python version:
    ```
    # check Python version
@@ -415,7 +415,7 @@ ___
    ansible 2.9.6
    (virtualenv)$ vagrant up
    ```
-## 3. Connect to VM: ##
+## Connect to VM: ##
    ```
    $ vagrant ssh ntp.edu.tentixo.com
    ```
@@ -425,7 +425,7 @@ ___
     $ chronyc sources
     $ chronyc tracking
    ```
-## 4. About files: ##
+## About files: ##
 ### Vagrant files: ###
    ```
 #This line is responsible for the name of the configuration and version vagrant.
