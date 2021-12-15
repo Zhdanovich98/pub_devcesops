@@ -103,14 +103,8 @@ You should be able to verify that you are running Ansible by using the --version
 ```
 Good article about installing ansible:
 - [Install Ansible by using virtualenv]
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
+
       <a href="#Install-Ansible.">Install Ansible.</a>
-    </li>
-  </ol>
-</details>
 
    [Install and Use VirtualBox in Ubuntu 20.04]: https://linuxhint.com/install_use_virtualbox_ubuntu/
    [Download Vagrant]: https://www.vagrantup.com/downloads
