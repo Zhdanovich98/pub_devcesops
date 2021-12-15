@@ -282,7 +282,7 @@ deactivate
 ##### For use Ansible correctly we need 2 files: #####
 
 ### playbook.yml ###
-```sh
+```
 ---
 - hosts: ntp		
   become: true		
@@ -508,7 +508,7 @@ Vagrant.configure("2") do |config|
 
   end
 
-    config.vm.provider "virtualbox" do |vb|				 ###  Create project folder:
+    config.vm.provider "virtualbox" do |vb|
 
       vb.cpus = 1							 
       vb.gui = false							 
@@ -520,15 +520,14 @@ Vagrant.configure("2") do |config|
     config.vm.provision :ansible do |ansible|				
     	ansible.playbook = "playbook.yml"					
     	ansible.inventory_path = "inventory"				
-    	ansible.raw_arguments = ["-vvv", "--flush-cache"
-	]								 
+    	ansible.raw_arguments = ["-vvv", "--flush-cache"]								 
 
     end
 
 end
    ```
 ### Playbook.yml file ###
-   ```
+```
    ---
 - hosts: ntp										
   become: true										
@@ -550,27 +549,25 @@ end
       systemd:
         name: chronyd
         state: restarted
-   ```
+```
 ### About inventory file ###
-   ```
-    You can read more information about inventory file here:
-    https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html
-   ```
+
+    You can read more information about inventory file [here](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html)
+
 ### About requirements.txt file ###
-   ```
-   Good article about requirements.txt:
-   https://blog.sedicomm.com/2021/06/29/chto-takoe-virtualenv-v-python-i-kak-ego-ispolzovat/
-   ```
+
+   Good article about requirements.txt [here](https://blog.sedicomm.com/2021/06/29/chto-takoe-virtualenv-v-python-i-kak-ego-ispolzovat/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Useful links ##
   If you have some problems, these sites will help you to solve them:<br>
-  1.https://docs.ansible.com/ansible/2.9/modules/systemd_module.html<br>
-  2.https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html<br>
-  3.https://github.com/Karandash8/virtualbox_WSL2<br>
-  4.https://stackoverflow.com/questions/40535667/ansible-failed-to-connect-to-the-host-via-ssh<br>
-  5.https://www.schakko.de/2020/01/10/fixing-unprotected-key-file-when-using-ssh-or-ansible-inside-wsl/<br>
-  6.https://stackoverflow.com/questions/41377375/failed-to-connect-to-host-via-ssh-on-vagrant-with-ansible-playbook<br>
+  1. https://docs.ansible.com/ansible/2.9/modules/systemd_module.html<br>
+  2. https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html<br>
+  3. https://github.com/Karandash8/virtualbox_WSL2<br>
+  4. https://stackoverflow.com/questions/40535667/ansible-failed-to-connect-to-the-host-via-ssh<br>
+  5. https://www.schakko.de/2020/01/10/fixing-unprotected-key-file-when-using-ssh-or-ansible-inside-wsl/<br>
+  6. https://stackoverflow.com/questions/41377375/failed-to-connect-to-host-via-ssh-on-vagrant-with-ansible-playbook<br>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
