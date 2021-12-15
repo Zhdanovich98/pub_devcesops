@@ -173,7 +173,7 @@ deactivate
 
 ##  3. Vagrantfile:
 
-   ### <p><a href="https://www.vagrantup.com/docs/vagrantfile">link on official Docs for Vagrant</a></p>
+   [link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
             ```
             Vagrant.configure("2") do |config|
                   ##### VM definition #####   
