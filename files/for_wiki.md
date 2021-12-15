@@ -108,7 +108,7 @@ To install pip, follow t2.2he official pip installation guide - this will automa
 Good article about installing python and pip:
 - [Properly Installing Python]
 - [Official pip installation guide]
-- [Python Packaging User Guide]Create/Setting
+- [Python Packaging User Guide]
 - [New Python Versions]
 
 ### Install Virtualenv ###
