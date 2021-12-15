@@ -245,7 +245,7 @@ deactivate
 
    [Link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
 
-            ```
+```
             Vagrant.configure("2") do |config|
                   config.vm.define "ntp.edu.tentixo.com" do |config|          
                   config.vm.hostname = "ntp.edu.tentixo.com"                  
@@ -264,7 +264,7 @@ deactivate
                         end
                   end
             end
-            ```
+```
 
   **Description:**
   - config.vm.define - Description of server name and config name
