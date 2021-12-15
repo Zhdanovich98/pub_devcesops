@@ -244,9 +244,9 @@ deactivate
 ##  Vagrantfile ##
 
    [Link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
+
             ```
             Vagrant.configure("2") do |config|
-                  ##### VM definition #####   
                   config.vm.define "ntp.edu.tentixo.com" do |config|          
                   config.vm.hostname = "ntp.edu.tentixo.com"                  
                   config.vm.box = "generic/rhel8"                             
