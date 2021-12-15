@@ -306,11 +306,12 @@ ___
 
 ***On other Windows versions and packages has not been tested!!!***
 
- ## 0. Install vagrant and VirtualBox:
+##  Install tools:
+###  Install Vagrant and VirtualBox ###
  1. You need to go to the virtualbox [website](https://www.virtualbox.org/wiki/Downloads) and download the latest version for Windwos(I have it 6.1.30)<br>
  2. You need to go to the vagrant [website](https://www.vagrantup.com/downloads) and download the last version(for you processor 32/64-bit) for Windows(I have it 2.2.19 for 64-bit)
 
- ## 1. Install WSL2
+### Install WSL2 ###
    You must use WSL2. To install it, check the official documentation.<br>
    You need to turn on components WSL 10 using dism: <br>
    ```
@@ -340,7 +341,7 @@ ___
    wsl --set-version Ubuntu-20.04 2
    ```
 
-## 2. Install Vagrant inside WSL2
+### Install Vagrant inside WSL2 ###
    Assuming you're using Ubuntu 20.04, run:
    ```
    # run inside WSL 2
@@ -358,7 +359,7 @@ ___
    source ~/.bashrc
    ```
 
-## 3. Install virtualbox_WSL2 plugin
+### Install virtualbox_WSL2 plugin ###
    If you have problem with Vagrant like this:
    ```
    Bringing machine 'default' up with 'virtualbox' provider...
@@ -386,13 +387,13 @@ ___
    ```
   $ vagrant plugin install virtualbox_WSL2
    ```
-## 4. Create project folder:
+###  Create project folder:
    Go to the required directive and create project folder:
    ```
    $ mkdir VagrantVM
    $ cd ./VagrantVM/
    ```
-## 5. Create your virtualenv:
+## 2. Create your virtualenv: ##
    First, verify the installed Python version:
    ```
    # check Python version
@@ -402,7 +403,7 @@ ___
    $ ls
    virtualenv   
    ```
-## 6. Install ansible and Vagrant build:
+### Install ansible and Vagrant build: ###
    Then you need to install ansible 2.9.6 in virtualenv
    ```
    $ source virtualenv/bin/activate
@@ -414,18 +415,18 @@ ___
    ansible 2.9.6
    (virtualenv)$ vagrant up
    ```
-## 7. Connect to VM:
+## 3. Connect to VM: ##
    ```
    $ vagrant ssh ntp.edu.tentixo.com
    ```
-## 8. Checking the work of ntp servers:
-   And run these commands in rhel8:
+### Checking the work of ntp servers:
+   And run these commands in Rhel8:
    ```
     $ chronyc sources
     $ chronyc tracking
    ```
-# About files:
-## 1. Vagrant files:
+## 4. About files: ##
+### Vagrant files: ###
    ```
 #This line is responsible for the name of the configuration and version vagrant.
 Vagrant.configure("2") do |config|
@@ -455,7 +456,7 @@ Vagrant.configure("2") do |config|
 
 end
    ```
-## 2. Playbook.yml file:
+### Playbook.yml file: ###
    ```
    ---
 - hosts: ntp										
@@ -478,18 +479,18 @@ end
         name: chronyd
         state: restarted
    ```
-## 3. About inventory file:
+### About inventory file: ###
    ```
     You can read more information about inventory file here:
     https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html
    ```
-## 4. About requirements.txt file:
+### About requirements.txt file: ###
    ```
    Good article about requirements.txt:
    https://blog.sedicomm.com/2021/06/29/chto-takoe-virtualenv-v-python-i-kak-ego-ispolzovat/
    ```
-# Useful links
-  I faced some problems or just new information, these sites helped me to solve them:<br>
+## Useful links
+  If you have some problems, these sites will help you to solve them:<br>
   1.https://docs.ansible.com/ansible/2.9/modules/systemd_module.html<br>
   2.https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html<br>
   3.https://github.com/Karandash8/virtualbox_WSL2<br>
