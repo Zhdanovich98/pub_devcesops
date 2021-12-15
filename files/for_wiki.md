@@ -89,7 +89,7 @@ After you can easily install Python different versions, example 3.9 with the fol
 If you want to use a more current Python, we recommend using the deadsnakes PPA to install Python 3.8:
 ```ch
     $ sudo apt-get install software-properties-common
-####    $ sudo add-apt-repository ppa:deadsnakes/ppa
+    $ sudo add-apt-repository ppa:deadsnakes/ppa
     $ sudo apt-get update
     $ sudo apt-get install python3.8
 ```
@@ -124,22 +124,7 @@ For create your virtual environment use next lines:
     # Install packages
     $ pip install -r requirements.txt
 ```
-              <li><a href="#Ansible">Ansible</a></li>
-            </ul>
-            <ul>Create/Setting
-                <li><a href="#Official-Links">Official Links</a></li>
-              </ul>
-    <li><a href="#On-Windows">On Windows</a></li>
-    <ul>
-        <li><a href="#Install-tools-for-WSL2">Install tools</a></li>
-      </ul>
-      <ul>
-          <li><a href="#Create-your-virtualenv">Create your virtualenv</a></li>
-        </ul>
-        <ul>
-            <li><a href="#Connect-to-VM">Connect to VM</a></li>
-          </ul>
-          <ul>
+
 Good article about installing virtualenv:
 - [Installation]
 - [How to create python 3 virtual environment]
