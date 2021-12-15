@@ -489,15 +489,12 @@ Vagrant.configure("2") do |config|
     config.vm.box = "generic/rhel8"					
     config.vm.network "private_network", ip: "192.168.56.2"		
     config.vm.box_check_update = false					
-
   end
 
     config.vm.provider "virtualbox" do |vb|
-
       vb.cpus = 1							 
       vb.gui = false							 
       vb.memory = "1024"						
-
     end
 
     config.ssh.insert_key = false					
@@ -505,7 +502,6 @@ Vagrant.configure("2") do |config|
     	ansible.playbook = "playbook.yml"					
     	ansible.inventory_path = "inventory"				
     	ansible.raw_arguments = ["-vvv", "--flush-cache"]								 
-
     end
 
 end
@@ -520,7 +516,7 @@ end
     - name: Update Operation system							
       package:
         name: '*'
-        state: latest###  Create project folder:
+        state: latest
 
     - name: Copy line the chrony configuration
       lineinfile:									
