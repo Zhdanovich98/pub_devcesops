@@ -277,8 +277,8 @@ ansible_ssh_private_key_file=/home/arthur/courses/DevOps-Security/.vagrant/machi
 ___
 
 # On Windows #
-<br>
-## Task: <br>
+
+## Task: ##
  Change ntp to ntp.se with Ansible in an RHEL 8 virtual server named ntp.edu.tentixo.com via VagrantBox on VirtualBox - connection should be done with computer name, not IP.<br>
 
  [-Info about RHEL8](https://www.linuxadictos.com/ru/rhel8.html) <br>
