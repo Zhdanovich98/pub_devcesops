@@ -298,7 +298,7 @@ ___
 | Linux RHEL | 8 |
 | VirtualBox | +6.1.22 (Windows version) |
 | WSL | 2 |
-| Python | 3.8.10 or 3.9.5 |
+| Python | 3.8.10 |
 | Virtualenv | 20.0.17 |
 | Vagrant | 2.2.18 |
 | Vagrant plugin: virtualbox_WSL2 | 0.1.3 |
