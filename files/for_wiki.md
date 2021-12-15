@@ -262,7 +262,7 @@ deactivate
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Ansible ##
-***Ansible Automation Platform is the IT automation technology that anyone can use***
+***Ansible Automation Platform is the IT automation technology that anyone can use*.**
 ***More information [here](https://www.ansible.com/products/automation-platform/).***
 
 ##### For use Ansible correctly we need 2 files: #####
