@@ -456,7 +456,7 @@ ___
    ```
    $ source virtualenv/bin/activate
    (virtualenv)$ python3 -m pip install --upgrade pip
-   (virtualenv)$ pip install wheel###  Create project folder:
+   (virtualenv)$ pip install wheel
 
    (virtualenv)$ python3 -m pip install ansible==2.9.6
    #chech version:
