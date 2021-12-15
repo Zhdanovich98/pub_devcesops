@@ -9,6 +9,7 @@
 | Virtualenv | 20.0.17 |
 | Vagrant | 2.2.6 |
 | Ansible | 2.9.6 |
+
 ***On other Linux families and packages has not been tested!!!***
 
 ## 1. Install tools ##
