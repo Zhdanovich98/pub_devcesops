@@ -6,14 +6,8 @@
         <li><a href="#Install-tools">Install tools</a></li>
       </ul>
       <ul>
-          <li><a href="#Create\/Setting-Virtualenv">Create/Setting Virtualenv</a></li>
+          <li><a href="#Setup-Virtualenv">Setup Virtualenv</a></li>
         </ul>
-        <ul>
-            <li><a href="#Create'/'Setting-Virtualenv">Create/Setting Virtualenv</a></li>
-          </ul>
-          <ul>
-              <li><a href="#Create-/-Setting-Virtualenv">Create/Setting Virtualenv</a></li>
-            </ul>
         <ul>
             <li><a href="#Vagrantfile">Vagrantfile</a></li>
           </ul>
@@ -115,7 +109,7 @@ To install pip, follow t2.2he official pip installation guide - this will automa
 Good article about installing python and pip:
 - [Properly Installing Python]
 - [Official pip installation guide]
-- [Python Packaging User Guide]
+- [Python Packaging User Guide]Create/Setting
 - [New Python Versions]
 
 ### Install Virtualenv ###
@@ -133,7 +127,7 @@ For create your virtual environment use next lines:
 ```
               <li><a href="#Ansible">Ansible</a></li>
             </ul>
-            <ul>
+            <ul>Create/Setting
                 <li><a href="#Official-Links">Official Links</a></li>
               </ul>
     <li><a href="#On-Windows">On Windows</a></li>
@@ -169,7 +163,7 @@ The Ansible installation will be installed in the **Create/Setting Virtualenv** 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Create/Setting Virtualenv ##
+## Setup Virtualenv ##
 
 ### Check version ###
 
