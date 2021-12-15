@@ -18,6 +18,21 @@
                 <li><a href="#Official-Links">Official Links</a></li>
               </ul>
     <li><a href="#On-Windows">On Windows</a></li>
+    <ul>
+        <li><a href="#Install-tools">Install tools</a></li>
+      </ul>
+      <ul>
+          <li><a href="#Create-your-virtualenv">Create your virtualenv</a></li>
+        </ul>
+        <ul>
+            <li><a href="#Connect-to-VM">Connect to VM</a></li>
+          </ul>
+          <ul>
+              <li><a href="#About-files">About files</a></li>
+            </ul>
+            <ul>
+                <li><a href="#Useful links">Useful links</a></li>
+              </ul>
   </ol>
 </details>
 
@@ -134,7 +149,7 @@ The Ansible installation will be installed in the **Create/Setting Virtualenv** 
 
 ## Create/Setting Virtualenv ##
 
-### Check version. ###
+### Check version ###
 
 Before you go any further, make sure you have [Python](https://docs.python.org/3.9/), [Pip](https://pip.pypa.io/en/stable/), [Virtualenv](https://virtualenv.pypa.io/en/20.0.17/) and that it’s available from your command line.
 
@@ -152,7 +167,7 @@ virtualenv --version
 
 > Python should be 3.9.*, pip == 20.0.2, virtualenv ==	20.0.17.
 
-### Create a virtual environment. ###
+### Create a virtual environment ###
 
 For start you should create directory with this and future Virtualenv folders.
 
@@ -176,7 +191,7 @@ virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 
 > [good article about venv](https://realpython.com/python-virtual-environments-a-primer/)
 
-### Active your virtual environment. ###
+### Active your virtual environment ###
 
  To begin using the virtual environment, it needs to be activated:
 
@@ -184,7 +199,7 @@ virtualenv -p /usr/bin/python3.9 ~/environments/python3.9
 source ~/environments/python3.9/bin/activate
 ```
 
-### Install Ansible. ###
+### Install Ansible ###
 
  Install Ansible:2.9.6 using requirements files:
 
@@ -200,7 +215,7 @@ pip install ansible==2.9.6
 
 You cat reed about install Python packages in [this article](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
-### Deactivate. ###
+### Deactivate ###
 
 If you are done working in the virtual environment for the moment, you can deactivate it:
 
@@ -210,7 +225,7 @@ deactivate
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-##  Vagrantfile: ##
+##  Vagrantfile ##
 
    [Link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
             ```
@@ -336,7 +351,7 @@ ___
 
 ***On other Windows versions and packages has not been tested!!!***
 
-##  Install tools: ##
+##  Install tools ##
 ###  Install Vagrant and VirtualBox ###
  * You need to go to the virtualbox [website](https://www.virtualbox.org/wiki/Downloads) and download the latest version for Windwos(I have it 6.1.30)<br>
  * You need to go to the vagrant [website](https://www.vagrantup.com/downloads) and download the last version(for you processor 32/64-bit) for Windows(I have it 2.2.19 for 64-bit)
@@ -417,13 +432,16 @@ ___
    ```
   $ vagrant plugin install virtualbox_WSL2
    ```
-###  Create project folder:
+###  Create project folder
    Go to the required directive and create project folder:
    ```
    $ mkdir VagrantVM
    $ cd ./VagrantVM/
    ```
-## Create your virtualenv: ##
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Create your virtualenv ##
    First, verify the installed Python version:
    ```
    # check Python version
@@ -433,30 +451,37 @@ ___
    $ ls
    virtualenv   
    ```
-### Install ansible and Vagrant build: ###
+### Install ansible and Vagrant build ###
    Then you need to install ansible 2.9.6 in virtualenv
    ```
    $ source virtualenv/bin/activate
    (virtualenv)$ python3 -m pip install --upgrade pip
-   (virtualenv)$ pip install wheel
+   (virtualenv)$ pip install wheel###  Create project folder:
+
    (virtualenv)$ python3 -m pip install ansible==2.9.6
    #chech version:
    (virtualenv)$ ansible --version
    ansible 2.9.6
    (virtualenv)$ vagrant up
    ```
-## Connect to VM: ##
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Connect to VM ##
    ```
    $ vagrant ssh ntp.edu.tentixo.com
    ```
-### Checking the work of ntp servers:
+### Checking the work of ntp servers
    And run these commands in Rhel8:
    ```
     $ chronyc sources
     $ chronyc tracking
    ```
-## About files: ##
-### Vagrant files: ###
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## About files ##
+### Vagrant files ###
    ```
 #This line is responsible for the name of the configuration and version vagrant.
 Vagrant.configure("2") do |config|
@@ -468,7 +493,8 @@ Vagrant.configure("2") do |config|
 
   end
 
-    config.vm.provider "virtualbox" do |vb|				 
+    config.vm.provider "virtualbox" do |vb|				 ###  Create project folder:
+
       vb.cpus = 1							 
       vb.gui = false							 
       vb.memory = "1024"						
@@ -486,7 +512,7 @@ Vagrant.configure("2") do |config|
 
 end
    ```
-### Playbook.yml file: ###
+### Playbook.yml file ###
    ```
    ---
 - hosts: ntp										
@@ -495,7 +521,8 @@ end
     - name: Update Operation system							
       package:
         name: '*'
-        state: latest
+        state: latest###  Create project folder:
+
     - name: Copy line the chrony configuration
       lineinfile:									
         path: /etc/chrony.conf
@@ -509,17 +536,20 @@ end
         name: chronyd
         state: restarted
    ```
-### About inventory file: ###
+### About inventory file ###
    ```
     You can read more information about inventory file here:
     https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html
    ```
-### About requirements.txt file: ###
+### About requirements.txt file ###
    ```
    Good article about requirements.txt:
    https://blog.sedicomm.com/2021/06/29/chto-takoe-virtualenv-v-python-i-kak-ego-ispolzovat/
    ```
-## Useful links
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Useful links ##
   If you have some problems, these sites will help you to solve them:<br>
   1.https://docs.ansible.com/ansible/2.9/modules/systemd_module.html<br>
   2.https://docs.ansible.com/ansible/2.8/user_guide/playbooks_best_practices.html<br>
@@ -527,3 +557,5 @@ end
   4.https://stackoverflow.com/questions/40535667/ansible-failed-to-connect-to-the-host-via-ssh<br>
   5.https://www.schakko.de/2020/01/10/fixing-unprotected-key-file-when-using-ssh-or-ansible-inside-wsl/<br>
   6.https://stackoverflow.com/questions/41377375/failed-to-connect-to-host-via-ssh-on-vagrant-with-ansible-playbook<br>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
