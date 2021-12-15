@@ -92,7 +92,7 @@ If you want to use a more current Python, we recommend using the deadsnakes PPA 
     $ sudo apt-get update
     $ sudo apt-get install python3.8
 ```
-Python 2.7.9 and later (on the python2 series), and Python 3.4 and later include pip by default.#Crea
+Python 2.7.9 and later (on the python2 series), and Python 3.4 and later include pip by default.
 To see if pip is installed, open a command prompt and run:
 
 ```
