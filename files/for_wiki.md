@@ -95,10 +95,12 @@ If you want to use a more current Python, we recommend using the deadsnakes PPA 
 ```
 Python 2.7.9 and later (on the python2 series), and Python 3.4 and later include pip by default.#Crea
 To see if pip is installed, open a command prompt and run:
-```ch
+
+```
     $ command -v pip
     $ pip3 --version
 ```
+
 If pip isn’t already installed, then install pip for Python 3 run the following commands as root or sudo user in your terminal:
 ```ch
     $ sudo apt update
