@@ -245,24 +245,24 @@ deactivate
    [Link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
 
 ```
-            Vagrant.configure("2") do |config|
-                  config.vm.define "ntp.edu.tentixo.com" do |config|          
-                  config.vm.hostname = "ntp.edu.tentixo.com"                  
-                  config.vm.box = "generic/rhel8"                             
-                  config.vm.network "private_network", ip: "172.28.128.22"    
-                  config.vm.box_check_update = false                         
+  Vagrant.configure("2") do |config|
+        config.vm.define "ntp.edu.tentixo.com" do |config|          
+        config.vm.hostname = "ntp.edu.tentixo.com"                  
+        config.vm.box = "generic/rhel8"                             
+        config.vm.network "private_network", ip: "172.28.128.22"    
+        config.vm.box_check_update = false                         
 
-                  config.vm.provision :ansible do |ansible|
-                        ansible.playbook = "provision.yaml"                   
-                        ansible.inventory_path = "inventory"                  
-                  end
+        config.vm.provision :ansible do |ansible|
+              ansible.playbook = "provision.yaml"                   
+              ansible.inventory_path = "inventory"                  
+        end
 
-                  config.vm.provider "virtualbox" do |v|                      
-                        v.memory = 2048                                       
-                        v.cpus = 2                                            
-                        end
-                  end
-            end
+        config.vm.provider "virtualbox" do |v|                      
+              v.memory = 2048                                       
+              v.cpus = 2                                            
+              end
+        end
+  end
 ```
 
   **Description:**
