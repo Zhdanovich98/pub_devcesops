@@ -6,7 +6,7 @@
         <li><a href="#Install-tools">Install tools</a></li>
       </ul>
       <ul>
-          <li><a href="#Create&Setting-Virtualenv">Create$Setting Virtualenv</a></li>
+          <li><a href="#Create&Setting-Virtualenv">Create&Setting Virtualenv</a></li>
         </ul>
         <ul>
             <li><a href="#Vagrantfile">Vagrantfile</a></li>
@@ -94,7 +94,7 @@ If you want to use a more current Python, we recommend using the deadsnakes PPA 
     $ sudo apt-get update
     $ sudo apt-get install python3.8
 ```
-Python 2.7.9 and later (on the python2 series), and Python 3.4 and later include pip by default.
+Python 2.7.9 and later (on the python2 series), and Python 3.4 and later include pip by default.#Crea
 To see if pip is installed, open a command prompt and run:
 ```ch
     $ command -v pip
