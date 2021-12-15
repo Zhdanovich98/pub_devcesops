@@ -5,7 +5,19 @@
     <ul>
         <li><a href="#Install-tools">Install tools</a></li>
       </ul>
-    <li><a href="#Help">Help</a></li>
+      <ul>
+          <li><a href="#Create/Setting-Virtualenv">Create/Setting Virtualenv</a></li>
+        </ul>
+        <ul>
+            <li><a href="#Vagrantfile">Vagrantfile</a></li>
+          </ul>
+          <ul>
+              <li><a href="#Ansible">Ansible</a></li>
+            </ul>
+            <ul>
+                <li><a href="#Official-Links">Official Links</a></li>
+              </ul>
+    <li><a href="#On-Windows">On Windows</a></li>
   </ol>
 </details>
 
@@ -187,7 +199,7 @@ pip install ansible==2.9.6
 
 You cat reed about install Python packages in [this article](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
-### Deactivate. ###VirtualBox
+### Deactivate. ###
 
 If you are done working in the virtual environment for the moment, you can deactivate it:
 
@@ -195,7 +207,7 @@ If you are done working in the virtual environment for the moment, you can deact
 deactivate
 ```
 
-##  Vagrantfile:
+##  Vagrantfile: ##
 
    [Link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
             ```
@@ -289,7 +301,7 @@ ansible_ssh_private_key_file=/home/arthur/courses/DevOps-Security/.vagrant/machi
 3. https://www.redhat.com/en/topics/automation/what-is-an-ansible-playbook
 4. https://docs.ansible.com/ansible/latest/network/getting_started/first_inventory.html
 
-## Official Links: ##
+## Official Links ##
 ##### - [Information about Python](https://docs.python.org/3.9/)
 ##### - [Information about Ansible](https://www.ansible.com/)
 ##### - [Information about VagrantBox](https://www.vagrantup.com/)
