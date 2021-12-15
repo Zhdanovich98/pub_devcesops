@@ -171,7 +171,40 @@ If you are done working in the virtual environment for the moment, you can deact
 deactivate
 ```
 
-# 3. Ansible #
+##  3. Vagrantfile:
+
+   ### <p><a href="https://www.vagrantup.com/docs/vagrantfile">link on official Docs for Vagrant</a></p>
+            ```
+            Vagrant.configure("2") do |config|
+                  ##### VM definition #####   
+                  config.vm.define "ntp.edu.tentixo.com" do |config|          
+                  config.vm.hostname = "ntp.edu.tentixo.com"                  
+                  config.vm.box = "generic/rhel8"                             
+                  config.vm.network "private_network", ip: "172.28.128.22"    
+                  config.vm.box_check_update = false                         
+
+                  config.vm.provision :ansible do |ansible|
+                        ansible.playbook = "provision.yaml"                   
+                        ansible.inventory_path = "inventory"                  
+                  end
+
+                  config.vm.provider "virtualbox" do |v|                      
+                        v.memory = 2048                                       
+                        v.cpus = 2                                            
+                        end
+                  end
+            end
+            ```
+
+  **Description:**
+  - config.vm.define - Description of server name and config name
+  - config.vm.hostname - Hostname definition
+  - config.vm.box - Specifying the image that the vagrant will use and deploy
+  - config.vm.network - Description of the network type, specifying the ip of the machine
+  - config.vm.provision - Description of provision, its type and config name
+  - config.vm.provider - Provider selection and its config
+
+## 4. Ansible ##
 ***Ansible Automation Platform is the IT automation technology that anyone can use***
 ***More information [here](https://www.ansible.com/products/automation-platform/).***
 
