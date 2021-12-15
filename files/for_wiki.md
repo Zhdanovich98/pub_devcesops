@@ -19,7 +19,7 @@
               </ul>
     <li><a href="#On-Windows">On Windows</a></li>
     <ul>
-        <li><a href="#Install-tools">Install tools</a></li>
+        <li><a href="#Install-tools-for-WSL2">Install tools</a></li>
       </ul>
       <ul>
           <li><a href="#Create-your-virtualenv">Create your virtualenv</a></li>
@@ -351,7 +351,7 @@ ___
 
 ***On other Windows versions and packages has not been tested!!!***
 
-##  Install tools ##
+##  Install tools for WSL2 ##
 ###  Install Vagrant and VirtualBox ###
  * You need to go to the virtualbox [website](https://www.virtualbox.org/wiki/Downloads) and download the latest version for Windwos(I have it 6.1.30)<br>
  * You need to go to the vagrant [website](https://www.vagrantup.com/downloads) and download the last version(for you processor 32/64-bit) for Windows(I have it 2.2.19 for 64-bit)
