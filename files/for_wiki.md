@@ -7,6 +7,7 @@
 | Linux RHEL | 8 |
 | Python | 3.8.10 or 3.9.5 |
 | Virtualenv | 20.0.17 |
+| VirtualBox | 6.1.26 |
 | Vagrant | 2.2.6 |
 | Ansible | 2.9.6 |
 
@@ -175,7 +176,7 @@ pip install ansible==2.9.6
 
 You cat reed about install Python packages in [this article](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/).
 
-### Deactivate. ###
+### Deactivate. ###VirtualBox
 
 If you are done working in the virtual environment for the moment, you can deactivate it:
 
@@ -289,6 +290,21 @@ ansible_ssh_private_key_file=/home/arthur/courses/DevOps-Security/.vagrant/machi
 ___
 
 # On Windows #
+
+**This project works with:**
+| Tools | Version |
+| ------ | ------ |
+| Windows 10 | +19042.928 |
+| Linux RHEL | 8 |
+| VirtualBox | +6.1.22 (Windows version) |
+| WSL | 2 |
+| Python | 3.8.10 or 3.9.5 |
+| Virtualenv | 20.0.17 |
+| Vagrant | 2.2.18 |
+| Vagrant plugin: virtualbox_WSL2 | 0.1.3 |
+| Ansible | 2.9.6 |
+
+***On other Linux families and packages has not been tested!!!***
 
  ## Requirements:
  1. Windows 10 - version +19042.928
