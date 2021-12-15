@@ -550,13 +550,14 @@ end
         name: chronyd
         state: restarted
 ```
+
 ### About inventory file ###
 
-    You can read more information about inventory file [here](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html)
+You can read more information about inventory file [here](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html)
 
 ### About requirements.txt file ###
 
-   Good article about requirements.txt [here](https://blog.sedicomm.com/2021/06/29/chto-takoe-virtualenv-v-python-i-kak-ego-ispolzovat/)
+Good article about requirements.txt [here](https://blog.sedicomm.com/2021/06/29/chto-takoe-virtualenv-v-python-i-kak-ego-ispolzovat/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
