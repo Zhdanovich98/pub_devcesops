@@ -1,5 +1,16 @@
 # On Linux #
 
+**This project works with:**
+| Tools | Version |
+| ------ | ------ |
+| Linux Ubuntu | 20.04 |
+| Linux RHEL | 8 |
+| Python | 3.8.10 or 3.9.5 |
+| Virtualenv | 20.0.17 |
+| Vagrant | 2.2.6 |
+| Ansible | 2.9.6 |
+***On other Linux families and packages has not been tested!!!***
+
 ## 1. Install tools ##
 > To complete this task, you need to install the necessary software.
 > Each chapter shows the steps of installing components, links to sites with additional information, and author's comments.
@@ -277,18 +288,6 @@ ansible_ssh_private_key_file=/home/arthur/courses/DevOps-Security/.vagrant/machi
 ___
 
 # On Windows #
-
-## Task: ##
- Change ntp to ntp.se with Ansible in an RHEL 8 virtual server named ntp.edu.tentixo.com via VagrantBox on VirtualBox - connection should be done with computer name, not IP.<br>
-
- [-Info about RHEL8](https://www.linuxadictos.com/ru/rhel8.html) <br>
- [-Info about VirtualBox](https://www.virtualbox.org/)<br>
- [-Info about VagrantBox](https://www.vagrantup.com/)<br>
- [-Info about Ansible](https://www.thomaspreischl.de/ansible-wsl-windows/)<br>
- [-Info about WSL2](https://winitpro.ru/index.php/2020/07/13/zapusk-linux-v-windows-wsl-2/)<br>
-
- ## Objective of the project: <br>
- The purpose of the work is to acquire practical skills in working with Ansible, VagrantBox, VirtualBox, RHEL8, WSL2 and automatic configuration of ntp servers on ntp.se  <br>
 
  ## Requirements:
  1. Windows 10 - version +19042.928
