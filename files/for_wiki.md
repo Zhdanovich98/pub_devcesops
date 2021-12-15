@@ -1,4 +1,4 @@
-<details>
+
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#On-Linux ">On Linux </a></li>
@@ -34,7 +34,6 @@
                 <li><a href="#Useful-links">Useful links</a></li>
               </ul>
   </ol>
-</details>
 
 # On Linux #
 
