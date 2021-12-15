@@ -1,3 +1,17 @@
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#On-Linux ">On Linux </a>
+    </li>
+    <li>
+      <a href="#Steps-to-start">Steps to start</a>
+    </li>
+    <li><a href="#On-Windows">On Windows</a></li>
+    <li><a href="#Help">Help</a></li>
+  </ol>
+</details>
+
 # On Linux #
 
 **This project works with:**
