@@ -105,7 +105,7 @@ If pip isn’t already installed, then install pip for Python 3 run the followin
     $ sudo apt update
     $ sudo apt install python3-pip
 ```
-To install pip, follow t2.2he official pip installation guide - this will automatically install the latest version of setuptools.
+To install pip, follow the official pip installation guide - this will automatically install the latest version of setuptools.
 Good article about installing python and pip:
 - [Properly Installing Python]
 - [Official pip installation guide]
