@@ -31,7 +31,7 @@
               <li><a href="#About-files">About files</a></li>
             </ul>
             <ul>
-                <li><a href="#Useful links">Useful links</a></li>
+                <li><a href="#Useful-links">Useful links</a></li>
               </ul>
   </ol>
 </details>
