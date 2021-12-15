@@ -317,7 +317,6 @@ ansible_ssh_private_key_file=/home/arthur/courses/DevOps-Security/.vagrant/machi
 - ansible_ssh_private_key_file - path to your private key(should chenge {path to project holder} to path to your project)
 
 **Links:**
-##### - https://www.ansible.com/products/automation-platform
 ##### - https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
 ##### - https://www.redhat.com/en/topics/automation/what-is-an-ansible-playbook
 ##### - https://docs.ansible.com/ansible/latest/network/getting_started/first_inventory.html
