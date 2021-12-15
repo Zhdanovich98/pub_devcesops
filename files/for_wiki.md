@@ -331,10 +331,10 @@ ansible_ssh_private_key_file=/home/arthur/courses/DevOps-Security/.vagrant/machi
 - ansible_ssh_private_key_file - path to your private key(should chenge {path to project holder} to path to your project)
 -
 **Links:**
-1. https://www.ansible.com/products/automation-platform
-2. https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
-3. https://www.redhat.com/en/topics/automation/what-is-an-ansible-playbook
-4. https://docs.ansible.com/ansible/latest/network/getting_started/first_inventory.html
+##### - https://www.ansible.com/products/automation-platform
+##### - https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
+##### - https://www.redhat.com/en/topics/automation/what-is-an-ansible-playbook
+##### - https://docs.ansible.com/ansible/latest/network/getting_started/first_inventory.html
 
 ## Official Links ##
 ##### - [Information about Python](https://docs.python.org/3.9/)
@@ -497,8 +497,7 @@ ___
 
 ## About files ##
 ### Vagrant files ###
-   ```
-#This line is responsible for the name of the configuration and version vagrant.
+```
 Vagrant.configure("2") do |config|
   config.vm.define "ntp.edu.tentixo.com" do |config| 			
     config.vm.hostname = "ntp.edu.tentixo.com"				
@@ -525,7 +524,8 @@ Vagrant.configure("2") do |config|
     end
 
 end
-   ```
+```
+
 ### Playbook.yml file ###
 ```
    ---
