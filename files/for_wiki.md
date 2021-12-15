@@ -130,6 +130,7 @@ The Ansible installation will be installed in the **Create/Setting Virtualenv** 
    [How to set up python virtual environment]: https://itnext.io/how-to-set-up-python-virtual-environment-on-ubuntu-20-04-a2c7a192938d
    [Install Ansible by using virtualenv]: https://clouddocs.f5.com/products/orchestration/ansible/devel/usage/virtualenv.html
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Create/Setting Virtualenv ##
 
@@ -207,6 +208,8 @@ If you are done working in the virtual environment for the moment, you can deact
 deactivate
 ```
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ##  Vagrantfile: ##
 
    [Link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
@@ -239,6 +242,8 @@ deactivate
   - config.vm.network - Description of the network type, specifying the ip of the machine
   - config.vm.provision - Description of provision, its type and config name
   - config.vm.provider - Provider selection and its config
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Ansible ##
 ***Ansible Automation Platform is the IT automation technology that anyone can use***
@@ -309,6 +314,8 @@ ansible_ssh_private_key_file=/home/arthur/courses/DevOps-Security/.vagrant/machi
 ##### - [Information about VirtualEnv](https://virtualenv.pypa.io/en/20.0.17/)
 ##### - [Information about RHEL8](https://www.redhat.com/en/enterprise-linux-8)
 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ___
 
