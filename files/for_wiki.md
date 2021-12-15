@@ -304,15 +304,7 @@ ___
 | Vagrant plugin: virtualbox_WSL2 | 0.1.3 |
 | Ansible | 2.9.6 |
 
-***On other Windows families and packages has not been tested!!!***
-
- ## Requirements:
- 1. Windows 10 - version +19042.928
- 2. VirtualBox - version +6.1.22 (Windows version)
- 3. WSL 2
- 4. Vagrant +2.2.18 (Linux version)
- 5. Vagrant plugin: virtualbox_WSL2
- 6. (maybe) PowerShell Preview
+***On other Windows versions and packages has not been tested!!!***
 
  ## 0. Install vagrant and VirtualBox:
  1. You need to go to the virtualbox [website](https://www.virtualbox.org/wiki/Downloads) and download the latest version for Windwos(I have it 6.1.30)<br>
