@@ -6,7 +6,7 @@
         <li><a href="#Install-tools">Install tools</a></li>
       </ul>
       <ul>
-          <li><a href="#Create/Setting-Virtualenv">Create/Setting Virtualenv</a></li>
+          <li><a href="#Create&Setting-Virtualenv">Create$Setting Virtualenv</a></li>
         </ul>
         <ul>
             <li><a href="#Vagrantfile">Vagrantfile</a></li>
@@ -147,7 +147,7 @@ The Ansible installation will be installed in the **Create/Setting Virtualenv** 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Create/Setting Virtualenv ##
+## Create&Setting Virtualenv ##
 
 ### Check version ###
 
