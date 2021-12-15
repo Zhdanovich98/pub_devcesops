@@ -61,7 +61,7 @@ Good article about installing python and pip:
 - [Python Packaging User Guide]
 - [New Python Versions]
 
-#### 1.4 Install Virtualenv ####
+#### 1.4 Install Virtualenv
 Next, you need to install and create your virtualenv. For install you can use next line:
 ```ch
     $ sudo apt-get install python3-venv -y
@@ -79,32 +79,7 @@ Good article about installing virtualenv:
 - [How to create python 3 virtual environment]
 - [How to set up python virtual environment]
 
-#### 1.5 Install Ansible ####
-After you install virtualenv, you can create a “virtual environment” to host your local copy of Ansible.
-```ch
-    $ virtualenv myansible
-```
-To use this new location, you must activate it.
-```ch
-    $ source myansible/bin/activate
-```
-You should see the prompt change to include the virtualenv name. For example:
-```ch
-    $ (myansible) $
-```
-Now that the virtualenv is active, all future Python commands (such as pip) will install modules into the virtualenv.
-Let’s install Ansible to make it possible to use the modules. First, make sure you installed Ansible.
-```ch
-    (myansible) $ pip install ansible
-```
-You should be able to verify that you are running Ansible by using the --version argument to the ansible command, for example:
-```ch
-    (myansible) $ ansibl2.2e --version
-```
-Good article about installing ansible:
-- [Install Ansible by using virtualenv]
-
-      <a href="#Install-Ansible.">Install Ansible.</a>
+The Ansible installation will be installed in the Create/Setting Virtualenv section.
 
    [Install and Use VirtualBox in Ubuntu 20.04]: https://linuxhint.com/install_use_virtualbox_ubuntu/
    [Download Vagrant]: https://www.vagrantup.com/downloads
