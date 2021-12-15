@@ -304,7 +304,7 @@ ___
 | Vagrant plugin: virtualbox_WSL2 | 0.1.3 |
 | Ansible | 2.9.6 |
 
-***On other Linux families and packages has not been tested!!!***
+***On other Windows families and packages has not been tested!!!***
 
  ## Requirements:
  1. Windows 10 - version +19042.928
