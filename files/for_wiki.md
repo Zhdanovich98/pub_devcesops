@@ -13,7 +13,7 @@
 
 ***On other Linux families and packages has not been tested!!!***
 
-## 1. Install tools ##
+## Install tools ##
 > To complete this task, you need to install the necessary software.
 > Each chapter shows the steps of installing components, links to sites with additional information, and author's comments.
 
@@ -108,7 +108,7 @@ The Ansible installation will be installed in the **Create/Setting Virtualenv** 
    [Install Ansible by using virtualenv]: https://clouddocs.f5.com/products/orchestration/ansible/devel/usage/virtualenv.html
 
 
-## 2. Create/Setting Virtualenv ##
+## Create/Setting Virtualenv ##
 
 ### Check version. ###
 
@@ -184,7 +184,7 @@ If you are done working in the virtual environment for the moment, you can deact
 deactivate
 ```
 
-##  3. Vagrantfile:
+##  Vagrantfile:
 
    [Link on official Docs for Vagrant](https://www.vagrantup.com/docs/vagrantfile)
             ```
@@ -217,7 +217,7 @@ deactivate
   - config.vm.provision - Description of provision, its type and config name
   - config.vm.provider - Provider selection and its config
 
-## 4. Ansible ##
+## Ansible ##
 ***Ansible Automation Platform is the IT automation technology that anyone can use***
 ***More information [here](https://www.ansible.com/products/automation-platform/).***
 
@@ -308,8 +308,8 @@ ___
 
 ##  Install tools: ##
 ###  Install Vagrant and VirtualBox ###
- 1. You need to go to the virtualbox [website](https://www.virtualbox.org/wiki/Downloads) and download the latest version for Windwos(I have it 6.1.30)<br>
- 2. You need to go to the vagrant [website](https://www.vagrantup.com/downloads) and download the last version(for you processor 32/64-bit) for Windows(I have it 2.2.19 for 64-bit)
+ * You need to go to the virtualbox [website](https://www.virtualbox.org/wiki/Downloads) and download the latest version for Windwos(I have it 6.1.30)<br>
+ * You need to go to the vagrant [website](https://www.vagrantup.com/downloads) and download the last version(for you processor 32/64-bit) for Windows(I have it 2.2.19 for 64-bit)
 
 ### Install WSL2 ###
    You must use WSL2. To install it, check the official documentation.<br>
