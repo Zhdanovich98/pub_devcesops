@@ -1,5 +1,9 @@
 
-  <summary>Table of Contents</summary>
+## Table of Contents ##
+## 🔎Table of Contents🔎 ##
+## List bulleted ##
+## Text pointer ##
+## 🔎Text pointer🔎 ##
   <ol>
     <li><a href="#On-Linux ">On Linux </a></li>
     <ul>
